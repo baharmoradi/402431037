@@ -1,24 +1,14 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-
 int main()
 {
-    int one,two,cream;
-
-    cin >> one;
-    cin >>two;
-
-    one>two ? cream=one : cream=two;
-
-    int i=1;
-    while (i)
+    int n;
+    cin >> n;
+    for (n; n > 0; n)
     {
-        if ( cream%one==0 && cream%two==0 )
-        {
-            cout << 'kmm :'<< cream;
-            break;
-        }
-        cream++
+        int bit = n % 2;
+        cout << bit << '';
+        n = n / 2;
     }
-    return 0;
+    return0;
 }
