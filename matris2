@@ -1,0 +1,13 @@
+#include<iostream>
+
+int main() { 
+    int matrix [3][3] = {{1,2,3},
+    {4,5,6},
+    {7,8,9}};
+
+    int det=deter(matrix);
+
+    std::cout<<'det matrix:'<< det << std :: endl;
+
+    return 0;
+}
